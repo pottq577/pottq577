@@ -111,7 +111,7 @@
   <img src="https://img.shields.io/badge/Google Cloud Vision-4285F4?style=flat-square&logo=GoogleCloud&logoColor=white"/>
 
 - **역할** : <br/>
-  **Backend**<br/>단순한 기능 구현을 넘어, 이벤트 기반(CQRS) 코어 아키텍처 설계/리팩토링과 선제적 예외 방어 로직을 구축하여 서버의 안정성을 책임졌습니다. \
+  **Backend**<br/>단순한 기능 구현을 넘어, 이벤트 기반 코어 아키텍처 설계/리팩토링과 선제적 예외 방어 로직을 구축하여 서버의 안정성을 책임졌습니다. \
   **Frontend**<br/>프론트엔드 개발을 단독으로 전담하며 모든 코드 작성을 AI에게 위임하되, **클린 아키텍처와 일관된 코딩 스타일을 준수하도록 가드레일을 설계**하여 예측 가능한 모바일 앱을 구축했습니다.
 - 🔗 [레포지토리 바로가기](https://github.com/sparta-tigers)
 
