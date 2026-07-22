@@ -11,8 +11,8 @@
 
 ## 🙋 About Me
 
-> 저는 코드보다 원칙을 먼저 씁니다.<br/>
-> 코드를 직접 짜는 개발자가 아닌, AI가 올바른 코드를 짜도록 환경을 설계합니다.
+> 백엔드 아키텍처 설계와 보안 구현에 집중하고, AI 에이전트를 통제된 환경에서 오케스트레이션하여 구현 생산성을 끌어올립니다.<br/>
+> 40만 건 AI 데이터 처리 시간 60% 단축, 단일 인스턴스에서 600 TPS 실측 검증까지 직접 완수했습니다.
 
 - 🎯 **관심 분야** : AI 오케스트레이션, 도메인 결합도를 낮추는 설계, 예측 가능한 API 인터페이스 설계
 - 📚 **현재** : 웹훅 테스트 플랫폼 [FlashHook](https://flashhook.site) 라이브 운영 및 [야구대학](<https://github.com/pottq577/pottq577/#⚾-야구대학-*(운영-준비-중)*>) 런칭 준비 중
@@ -54,7 +54,7 @@
 
 ### ⚡ FlashHook
 
-> 개발자를 위한 웹훅 샌드박스 및 Mock API 테스트 플랫폼
+> 개발자를 위한 웹훅 샌드박스 및 Mock API 서비스
 
 - **상태** : `✅ 서비스 운영 중`
 - **기술 스택** :<br/>
@@ -63,22 +63,25 @@
   <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=Vite&logoColor=white"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>
   <img src="https://img.shields.io/badge/Zustand-764ABC?style=flat-square&logo=React&logoColor=white"/>
-\
-  **Backend** <br/>
+  \
+   **Backend** <br/>
   <img src="https://img.shields.io/badge/Java 21-007396?style=flat-square&logo=Java&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=Redis&logoColor=white"/>
-\
-  **Infrastructure & CI/CD** <br/>
+  \
+   **Infrastructure & CI/CD** <br/>
   <img src="https://img.shields.io/badge/Oracle Cloud-F80000?style=flat-square&logo=Oracle&logoColor=white"/>
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=Cloudflare&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=Vercel&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=flat-square&logo=GitHubActions&logoColor=white"/>
 
-- **역할** : <br/>
-  **Full-stack**<br/>웹훅 수신 및 분석, Mock API 생성을 위한 플랫폼의 기획부터 프론트엔드/백엔드 개발 전반을 완수하고 라이브 서비스를 운영하고 있습니다.
+- **역할** : **Full-stack** · 기획부터 FE/BE 개발, 인프라 구성, 라이브 운영까지 전담
+- **핵심 성과**
+  - **실시간 스트리밍 아키텍처** — SSE + ApplicationEvent 비동기 분리로 500개 커넥션 유지 상태에서 **최대 600 TPS**(평균 8.29ms, 100% 도달률)를 검증했습니다.
+  - **커스텀 보안 필터 체인** — Spring Security 없이 4단계 SSRF 방어(IP Pinning 포함)와 Redis Lua 기반 4-Tier Rate Limiting을 직접 구현했습니다.
+  - **Zero Trust 인프라 + TTL 자동 파기** — 외부 포트를 개방하지 않는 Cloudflare Tunnel을 구성하고, MongoDB TTL 인덱스로 24시간 후 데이터를 자동 파기하여 운영 오버헤드를 제거했습니다.
 - 🔗 [서비스 바로가기](https://flashhook.site)
 - 🔗 [레포지토리 바로가기](https://github.com/pottq577/flashhook)
 
@@ -96,23 +99,25 @@
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>
   <img src="https://img.shields.io/badge/Zustand-764ABC?style=flat-square&logo=React&logoColor=white"/>
   <img src="https://img.shields.io/badge/React Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
-\
-  **Backend** <br/>
+  \
+   **Backend** <br/>
   <img src="https://img.shields.io/badge/Java 21-007396?style=flat-square&logo=Java&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=Redis&logoColor=white"/>
   <img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=Socket.io&logoColor=white"/>
-\
-  **Infrastructure & APIs** <br/>
+  \
+   **Infrastructure & APIs** <br/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/AWS S3-569A31?style=flat-square&logoColor=white"/>
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=black"/>
   <img src="https://img.shields.io/badge/Google Cloud Vision-4285F4?style=flat-square&logo=GoogleCloud&logoColor=white"/>
 
-- **역할** : <br/>
-  **Backend**<br/>단순한 기능 구현을 넘어, 이벤트 기반 코어 아키텍처 설계/리팩토링과 선제적 예외 방어 로직을 구축하여 서버의 안정성을 책임졌습니다. \
-  **Frontend**<br/>프론트엔드 개발을 단독으로 전담하며 모든 코드 작성을 AI에게 위임하되, **클린 아키텍처와 일관된 코딩 스타일을 준수하도록 가드레일을 설계**하여 예측 가능한 모바일 앱을 구축했습니다.
+- **역할** : **Backend** · 코어 아키텍처 설계/리팩토링 리드 / **Frontend** · React Native 앱 단독 전담
+- **핵심 성과** :
+  - **3계층 아키텍처 재설계** — Foundation/Core/Support로 패키지를 분리하고, 핵심 도메인 간 직접 참조를 금지하여 Spring ApplicationEvent 기반 느슨한 결합을 적용했습니다.
+  - **에이전트 오케스트레이션 기반 앱 마이그레이션** — MCP 툴, 커스텀 Skills, 시스템 지침으로 AI 에이전트의 제어 환경을 구축하여, 인력 부족 상황에서 모바일 앱 프론트엔드를 재구축했습니다.
+  - **비동기 알림 + 조회 최적화** — Spring Scheduler + FCM 비동기 발송으로 메인 스레드 병목을 방어하고, QueryDSL로 동적 쿼리의 런타임 에러를 컴파일 단계에서 차단했습니다.
 - 🔗 [레포지토리 바로가기](https://github.com/sparta-tigers)
 
 ---
